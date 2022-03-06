@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Rock, Paper, Scissors</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Lapis, Papyrus, Scalpellus</h1>
+
+      <div class="game">
+        <div class="scores">
+          You: <strong><span class="player-score">0</span></strong
+          >&nbsp; Computer:
+          <strong><span class="computer-score">0</span></strong>
+        </div>
+
+        <div class="board">
+          <div class="results">
+            <h2>Welcome!</h2>
+            <p>Make your choice below.</p>
+          </div>
+
+          <button class="btn btn-primary game-option" data-option="0">
+            Lapis
+          </button>
+          <button class="btn btn-primary game-option" data-option="1">
+            Papyrus
+          </button>
+          <button class="btn btn-primary game-option" data-option="2">
+            Scalpellus
+          </button>
+        </div>
+      </div>
+
+      <button class="btn btn-secondary btn-sm new-game">New Game</button>
+    </div>
+  </body>
+</html>
